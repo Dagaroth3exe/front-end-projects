@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(36, 35, 35);
+}
+
+.box{
+    width: 672px;
+    height: 397.5px;
+    background-color: rgb(17, 184, 196);
+    margin: 100px auto;
+    border-radius: 3px;
+    box-shadow: 8px 8px 10px rgb(59, 61, 62) ;
+}
+
+.animations{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(rgb(253, 84, 84) 0%, rgb(255, 105, 105) 10%, rgb(153, 6, 6) 50%, rgb(112, 8, 8) 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    border: 1px solid black;
+    /* animation-iteration-count: infinite; */
+    animation-timing-function: steps(144, start);
+
+    /* animations add */
+    animation-name: bounce;
+    animation-duration: s;
+   
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-50px);} 
+    60% {transform: translateY(-70px);}     
+}
+
+.bricks{
+    height: 63px;
+    width: 64px;
+    border: rgb(69, 21, 21) 2px solid;
+    background-image: url(resources/unnamed.png);
+
+}
+
+.brickshorizontal{
+    display: flex;
+}
+
+.brickslow{
+    height: 63px;
+    width: 64px;
+    border: rgb(69, 21, 21) 2px solid;
+    background-image: url(resources/unnamed.png);
+}
+
+.low{
+    display: flex;
+    margin-top: 39.5%;
+}
