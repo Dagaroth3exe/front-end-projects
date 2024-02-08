@@ -157,7 +157,7 @@
 }
 
 .panel-options{
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     width: 70%;
 }
 
@@ -179,7 +179,8 @@
 .shop-section{
     display: flex;
     justify-content: space-evenly;
-    background: linear-gradient(#0f3d0f, rgb(226, 226, 226));
+    background: linear-gradient(#063b28, rgb(226, 226, 226));
+
 }
 
 .box{
@@ -188,7 +189,9 @@
     width: 22.5%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px  ;
     
 }
 
@@ -243,6 +246,106 @@
     margin-right: 20px;
 }
 
-.change{
+.footer1{
+    background-color: #374a5c;
+    display: flex;
+    font-size: 0.75rem;
+    color: white;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+}
 
+.footer2{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+}
+
+.parts{
+    border: 2px solid #222f3d;
+    height: 220px;
+    width: 250px;
+    margin-top: 40px;
+    color: white;
+    font-size: 0.95rem;
+    justify-content: center;
+    padding: 0px 5px;
+}
+
+.parts p{
+    margin-bottom: 9px;
+}
+
+.get{
+    padding-left: 44px;
+}
+
+.connect{
+    padding-left: 10px;
+}
+
+.line{
+    background-color: #374a5c;
+    height: 1px;
+    width: 100%;
+}
+
+.footer3{
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content:center;
+}
+
+.amzlogo{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.footlang{
+    justify-content: space-evenly;
+    padding-top: 12px ;
+    display: flex;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #374a5c;
+    border-radius: 0.10cm;
+    margin-left: 15px;
+
+}
+
+.footer4{
+    display: flex;
+    height: 20px;
+    padding: 10px;
+    font-size: 0.85rem;
+    justify-content: center;
+    color: white;
+    background-color: #222f3d;
+}
+
+.footer4 p{
+    margin: 5px;
+}
+
+.footer5{
+    display: flex;
+    height: 30px;
+    font-size: 0.85rem;
+    justify-content: center;
+    color: white;
+    background-color: #222f3d;
+}
+
+.footer5 p{
+    margin-left: 5px;
+    margin-right: 5px;
 }
