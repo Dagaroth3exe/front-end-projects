@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS animations</title>
+  <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="box">
-        <div class="animations"></div>
-            <div class="brickshorizontal">
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div> 
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-                <div class="bricks"></div>
-            </div>
+    <title>RPG - Dragon Repeller</title>
+  </head>
+  <body>
+      <div id="game">
+          <div id="stats">
+              <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+              <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+              <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+          </div>
 
-            <div class="low">
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-                <div class="brickslow"></div>
-            </div>
-    </div>
-</body>
+        <!-- game controls  -->
+          <div id="controls">
+              <button id="button1">Armoury</button>
+              <button id="button2">Cave</button>
+              <button id="button3">Action</button>
+          </div>
+
+        <!-- monster stats  -->
+          <div id="monsterStats">
+              <span class="stat">Monster Name: <strong><span  id="monsterName"></span></strong></span>
+              <span class="stat">Health: <strong><span    id="monsterHealth"></span></strong></span>
+
+          </div> 
+          
+          <div id="text">
+              Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above. 
+          </div>
+  </body>
+  <script src="questions.js"></script>
 </html>
