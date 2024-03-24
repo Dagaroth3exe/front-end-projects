@@ -64,34 +64,43 @@
 #home{
     
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(9, 5, 54, 0.196), rgba(5, 4, 46, 0.7)), url("1688636487php8Pv14l.jpeg");
     font-family: "Chivo", sans-serif;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    
 }
 
 #home h2{
     color: #fff;
     font-size: 2.6rem;
     letter-spacing: 1px;
+    padding-left: 100px;
+    padding-top: 290px;
+    margin: 5px;
+    
 }
 
 #home p{
-    width: 50%;
     color: #fff;
-    font-size: 1.5rem;
-    line-height: 25px;
+    font-size: 2.6rem;
+    padding-left: 100px;
+    padding-bottom: 60px;
+    margin: 0%;
 }
+
+#home .p2{
+    padding-left: 100px;
+    padding-bottom: 0%;    
+}
+
 
 #home a{
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background-color: rgb(21, 21, 100);
     padding: 20px;
     font-size: 20px;
@@ -99,14 +108,92 @@
     color: #fff;
     border-radius: 5px;
     transition: 0.2s ease;
+    
 }
 
 #home .btn{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #home a:hover{
     color: rgb(21, 21, 100);
     background-color: #fff;
     
+}
+
+/* about section  */
+
+.info{
+    font-family: "Chivo", sans-serif;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.196), rgba(5, 4, 46, 0.804)), url("v911-a-15-b.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 1px;
+    /* padding-top: 50px; */
+    width: 100%;
+    height: 60vh;
+    background-color: #dce5eb;
+}
+
+.info img{
+    height: 300px;
+    width: 550px;
+    margin: 0%;
+    float: right;
+    margin-right:100px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.info h2{
+    text-decoration: underline dotted;
+    padding-top: 100px;
+    font-size: 50px;
+    padding-left: 100px; 
+    padding-bottom: 0%; 
+    margin: 10px;
+}
+
+.info p{
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 100px ;
+    padding-right: 800px;
+    margin: 0%;
+}
+
+/* about info 2 */
+
+.info2{
+    font-family: "Chivo", sans-serif;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.196), rgba(5, 4, 46, 0.804)), url("1687787632phpNV53Hq.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px;
+    /* padding-top: 50px; */
+    width: 100%;
+    height: 100vh;
+    background-color: #dce5eb;
+}
+
+.info2 h2{
+    
+    padding-top: 70px;
+    font-size: 50px;
+    padding-left: 100px; 
+    padding-bottom: 0%; 
+    margin: 10px;
+}
+
+.info2 p{
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 100px ;
+    padding-right: 600px;
+    margin: 0%;
 }
